@@ -2,6 +2,7 @@ import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Color from "../components/Color";
 import Meta from "../components/Meta";
+import watch from "../images/watch.jpg";
 const CompareProduct = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const CompareProduct = () => {
             <div className="col-3">
               <div className="compare-product-card position-relative">
                 <img
-                  src="images/cross.svg"
+                  src={watch}
                   alt="cross"
                   className="position-absolute cross img-fluid"
                 />
@@ -62,7 +63,7 @@ const CompareProduct = () => {
                   className="position-absolute cross img-fluid"
                 />
                 <div className="product-card-image">
-                  <img src="images/watch.jpg" alt="watch" />
+                  <img src={watch} alt="watch" />
                 </div>
                 <div className="compare-product-details">
                   <h5 className="title">
